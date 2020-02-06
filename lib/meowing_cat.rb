@@ -4,4 +4,10 @@ class Cat
   
   def meow
   puts "meow!"
-  end
+  end 
+end
+
+maru = Cat.new 
+maru.name = "Maru"
+
+maru.meow
